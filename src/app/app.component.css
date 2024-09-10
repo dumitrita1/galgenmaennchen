@@ -1,0 +1,51 @@
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+  
+.svg-img {
+    margin-bottom: 20px;
+}
+
+.keybord {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 10px;
+}
+  
+.zh-key {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.zh-key:hover {
+    background-color: #45a049;
+}
+  
+.zh-key:active {
+    transform: scale(0.95);
+}
+
+.button {
+    margin-top: 20px;
+}
+  
+.reload_buton {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+.reload_buton:hover {
+    background-color: #1976d2;
+}
+  
